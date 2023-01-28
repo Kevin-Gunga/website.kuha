@@ -1,0 +1,1244 @@
+/*body*/
+
+.main-page {
+    width: 100%;
+    height: 5100px;
+    margin-left: 0px;
+    background: rgb(2, 0, 36);
+}
+
+#logo {
+    width: 100%;
+    height: 600px;
+    margin-bottom: 90px;
+    background-color: #fafafa;
+}
+
+.hr1 {
+    background-color: #fc00ff;
+    height: 10px;
+    width: 250px;
+    margin-left: 670px;
+    margin-top: 80px;
+}
+
+#logo img {
+    height: 380px;
+    margin-left: 38%;
+    margin-top: 40px;
+    margin-bottom: 5px;
+}
+
+#constitution {
+    height: 200px;
+    width: 450px;
+}
+
+button {
+    padding: 20px 20px;
+    background: mediumslateblue;
+    outline: none;
+    border: 2px solid white;
+    border-radius: 50px;
+    color: white;
+    text-decoration: none;
+    margin-left: 40px;
+    font-size: 30px;
+    height: 120px;
+    width: 500px;
+}
+
+button :hover {
+    color: white;
+}
+
+#meeting-schedule {
+    height: 350px;
+    width: 500px;
+    margin-top: 50px;
+    margin-left: 50px;
+    padding-top: 5px;
+    padding: 5px;
+    background-color: cadetblue;
+    border-radius: 3%;
+    box-shadow: 5px 5px 7px rosybrown;
+}
+
+#meeting-schedule :hover {
+    color: brown;
+}
+
+#meeting-schedule h1 {
+    font-size: 30px;
+    padding-left: 15px;
+}
+
+#meeting-schedule li {
+    padding: 3px;
+    font-size: 40px;
+}
+
+#About-KUHA {
+    color: white;
+    height: 350px;
+    width: 800px;
+    margin-top: 0% auto;
+    padding-top: 20px;
+    margin-left: 10px;
+    padding-left: 30px;
+}
+
+#About-KUHA p {
+    margin-top: 5px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 35px;
+}
+
+#About-KUHA h1 {
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+#executives h1 {
+    margin-top: 40px;
+    margin-left: 20px;
+    padding-left: 30px;
+    padding-top: 30px;
+    font-size: 35px;
+    color: crimson;
+}
+
+.box {
+    background: linear-gradient(90deg, rgb(204, 192, 255), palevioletred);
+    width: 99%;
+    height: 700px;
+    margin: 4px;
+    color: green;
+    border-radius: 10px;
+    box-shadow: -2px -5px white;
+}
+
+.exe {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.character {
+    font-size: 13px;
+    font-weight: bolder;
+    margin-left: 35px;
+}
+
+.patron img {
+    height: 290px;
+    width: 150px;
+    border-radius: 3px;
+    margin-left: 70px;
+}
+
+.chairman img {
+    height: 290px;
+    width: 150px;
+    border-radius: 3px;
+    margin-left: 30px;
+}
+
+.vicechair img {
+    height: 300px;
+    width: 200px;
+    border-radius: 3px;
+    margin-left: 20px;
+}
+
+.secgen img {
+    height: 300px;
+    width: 200px;
+    border-radius: 3px;
+    margin-left: 20px;
+}
+
+.treasurer img {
+    height: 310px;
+    width: 200px;
+    border-radius: 3px;
+    margin-left: 20px;
+}
+
+.welfare img {
+    height: 370;
+    width: 170px;
+    border-radius: 3px;
+    margin-left: 20px;
+}
+
+.publicity img {
+    height: 300px;
+    width: 150px;
+    border-radius: 3px;
+    margin-left: 20px;
+}
+
+#cohorts {
+    height: 250px;
+    width: 410px;
+    margin-top: 50px;
+    margin-left: 50px;
+    padding-top: 5px;
+    margin-bottom: 40px;
+    padding: 10px;
+    background-color: cadetblue;
+    border-radius: 3%;
+    box-shadow: 5px 5px 7px rosybrown;
+}
+
+#cohorts li {
+    font-size: 30px;
+}
+
+#cohorts h1 {
+    margin-top: 5px;
+    margin-left: 20px;
+    padding-left: 30px;
+    font-size: 35px;
+}
+
+#cohorts :hover {
+    color: rgb(128, 87, 0);
+}
+
+#cohorts :hover {
+    color: yellow;
+}
+
+#gallery {
+    width: 750px;
+    margin-left: 40px;
+    padding-left: 0px;
+    background: rgb(2, 0, 36);
+}
+
+#gallery h1 {
+    color: white;
+    margin-left: 0px;
+    padding-top: 10px;
+    padding-left: 50px;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+#gallery video {
+    height: 700px;
+    width: 650px;
+    margin-left: 10%;
+    margin-bottom: 3%;
+    padding-left: 5px;
+    border-radius: 3%;
+    box-shadow: 5px 5px 7px rosybrown;
+}
+
+#Membership {
+    height: 350px;
+    margin-left: 20px;
+    width: 1200px;
+}
+
+#Membership h1 {
+    color: white;
+    margin-top: 40px;
+    padding-left: 30px;
+    font-size: 35px;
+    margin-left: 20px;
+}
+
+#Membership li {
+    color: white;
+    margin-left: 20px;
+    padding-top: 5px;
+    font-size: 30px;
+}
+
+#Activities {
+    height: 350px;
+    width: 340px;
+    margin-top: 10px;
+    padding: 3px;
+    margin-left: 50px;
+    background-color: cadetblue;
+    border-radius: 3%;
+    box-shadow: 5px 5px 7px rosybrown;
+}
+
+#Activities :hover {
+    color: brown;
+}
+
+#Activities li {
+    padding: 5px;
+    font-size: 30px;
+}
+
+#Activities h1 {
+    font-size: 35px;
+    margin-left: 45px;
+}
+
+#Recent_news {
+    color: white;
+    height: 460px;
+    width: 450px;
+    margin-left: 50px;
+    margin-bottom: 70px;
+    margin-top: 70px;
+    background-color: cadetblue;
+    border-radius: 3%;
+    box-shadow: 5px 5px 7px rosybrown;
+}
+
+#Recent_news h1 {
+    font-size: 35px;
+    margin-top: 40px;
+    padding-top: 10px;
+    margin-left: 40px;
+}
+
+table,
+tr,
+td {
+    padding-bottom: 10px;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    color: green;
+    font-weight: bolder;
+    border: 2px solid #000;
+}
+
+
+/*body*/
+
+
+/*navigation menu*/
+
+#web {
+    font-style: oblique;
+    font-size: 65px;
+    color: #000;
+    font-weight: bolder;
+    display: inline-flex;
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+header ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+    width: 97%;
+    height: 100px;
+}
+
+header li {
+    float: left;
+}
+
+header li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 55px;
+    text-decoration: none;
+}
+
+header li a:hover {
+    background-color: tomato;
+}
+
+
+/*navigation menu*/
+
+
+/*header*/
+
+#website img {
+    height: 630px;
+    width: 100%;
+    background-repeat: no-repeat;
+    color: #fafafa;
+    padding-top: 10px;
+}
+
+
+/*header*/
+
+
+/*------------footer------*/
+
+#footer {
+    height: 100px;
+    width: 100%;
+}
+
+#footer h1 {
+    font-size: 35px;
+    margin-top: 100px;
+    margin-left: 10px;
+    position: relative;
+    top: 80px;
+}
+
+.hr2 {
+    background-color: #674c68;
+    height: 10px;
+    width: 250px;
+    margin-left: 620px;
+    margin-top: 200px;
+}
+
+#footer p {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-left: 150px;
+    padding-top: 30px;
+    padding-left: -100px;
+    padding-bottom: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.container {
+    height: 350px;
+    width: 100%;
+    padding-top: 20px;
+    background: linear-gradient(90deg, #00dbde, #fc00ff);
+}
+
+.common {
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.facebook {
+    margin-top: 20px;
+    margin-left: 5%;
+    width: 85px;
+    background: #C1B086;
+    margin-top: 7%;
+    margin-left: 2%;
+    padding: 4%;
+    height: 60px;
+    box-shadow: 3px 5px 5px white;
+    border-radius: 5px;
+}
+
+.whatsapp {
+    margin-top: 20px;
+    width: 85px;
+    background: #C1B086;
+    margin-top: 7%;
+    margin-left: 2%;
+    padding: 4%;
+    height: 60px;
+    box-shadow: 3px 5px 5px white;
+    border-radius: 5px;
+}
+
+.phone {
+    margin-top: 20px;
+    width: 85px;
+    background: #C1B086;
+    margin-top: 7%;
+    margin-left: 2%;
+    padding: 4%;
+    height: 60px;
+    box-shadow: 3px 5px 5px white;
+    border-radius: 5px;
+}
+
+.sms {
+    margin-top: 20px;
+    width: 85px;
+    background: #C1B086;
+    margin-top: 7%;
+    margin-bottom: 5%;
+    margin-left: 2%;
+    padding: 4%;
+    height: 60px;
+    box-shadow: 3px 5px 5px white;
+    border-radius: 5px;
+}
+
+.facebook :hover {
+    color: gray;
+}
+
+.whatsapp :hover {
+    color: green;
+}
+
+.phone :hover {
+    color: blue;
+}
+
+.description {
+    margin-top: 5px;
+    font-size: 25px;
+}
+
+.sms :hover {
+    color: red;
+}
+
+
+/*---------footer-------*/
+
+
+/* MEDIA QUERIES*/
+
+@media screen and (max-width:1200px) {
+    /*body*/
+    .main-page {
+        width: 1410px;
+        height: 7700px;
+    }
+    #logo {
+        width: 1410px;
+        height: 550px;
+        margin-bottom: 90px;
+    }
+    .hr1 {
+        height: 10px;
+        width: 250px;
+        margin-left: 560px;
+        margin-top: 60px;
+    }
+    #logo img {
+        height: 380px;
+        margin-left: 35%;
+        margin-top: 40px;
+        margin-bottom: 5px;
+    }
+    #constitution {
+        height: 200px;
+        width: 400px;
+    }
+    button {
+        padding: 10px 10px;
+        outline: none;
+        border: 2px solid white;
+        border-radius: 50px;
+        margin-left: 40px;
+        font-size: 30px;
+        height: 100px;
+        width: 450px;
+    }
+    #meeting-schedule {
+        height: 250px;
+        width: 380px;
+        margin-top: 50px;
+        margin-left: 50px;
+        padding-top: 5px;
+        padding: 5px;
+        background-color: cadetblue;
+        border-radius: 3%;
+        box-shadow: 5px 5px 7px rosybrown;
+    }
+    #meeting-schedule h1 {
+        font-size: 25px;
+        padding-left: 15px;
+    }
+    #meeting-schedule li {
+        padding: 3px;
+        font-size: 30px;
+    }
+    #About-KUHA {
+        height: 250px;
+        width: 700px;
+        margin-top: 0% auto;
+        padding-top: 20px;
+        margin-left: 10px;
+        padding-left: 30px;
+    }
+    #About-KUHA p {
+        margin-top: 5px;
+        padding-bottom: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 20px;
+    }
+    #About-KUHA h1 {
+        font-size: 25px;
+        margin-left: 20px;
+    }
+    #executives h1 {
+        margin-top: 40px;
+        margin-left: 20px;
+        padding-left: 30px;
+        padding-top: 30px;
+        font-size: 25px;
+    }
+    .box {
+        width: 1400px;
+        height: 4100px;
+        border-radius: 10px;
+        box-shadow: -2px -5px white;
+    }
+    .exe {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .character {
+        font-size: 25px;
+        font-weight: bolder;
+        margin-left: 180px;
+        margin-top: 40px;
+        padding-left: 50px;
+        position: relative;
+        left: 80px;
+        bottom: 12px;
+    }
+    .patron img {
+        height: 500px;
+        width: 480px;
+        border-radius: 3px;
+        margin-left: 10px;
+    }
+    .chairman img {
+        height: 500px;
+        width: 470px;
+        border-radius: 3px;
+        margin-left: 240px;
+    }
+    .vicechair img {
+        height: 500px;
+        width: 470px;
+        border-radius: 3px;
+        margin-left: 200px;
+    }
+    .secgen img {
+        height: 500px;
+        width: 470px;
+        border-radius: 3px;
+        margin-left: 330px;
+    }
+    .treasurer img {
+        height: 500px;
+        width: 470px;
+        border-radius: 3px;
+        margin-left: 250px;
+    }
+    .welfare img {
+        height: 500px;
+        width: 470px;
+        border-radius: 3px;
+        margin-left: 180px;
+    }
+    .publicity img {
+        height: 470px;
+        width: 500px;
+        border-radius: 3px;
+        margin-left: 300px;
+    }
+    #cohorts {
+        height: 180px;
+        width: 270px;
+        margin-top: 50px;
+        margin-left: 50px;
+        padding-top: 5px;
+        margin-bottom: 40px;
+        padding: 10px;
+        border-radius: 3%;
+    }
+    #cohorts li {
+        font-size: 20px;
+    }
+    #cohorts h1 {
+        margin-top: 5px;
+        padding-left: 20px;
+        font-size: 27px;
+    }
+    #gallery {
+        width: 650px;
+        margin-left: 40px;
+        padding-left: 0px;
+    }
+    #gallery h1 {
+        margin-left: 20px;
+        padding-top: 10px;
+        padding-left: 50px;
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    #gallery video {
+        height: 600px;
+        width: 600px;
+        margin-left: 10%;
+        margin-bottom: 3%;
+        padding-left: 5px;
+        border-radius: 3%;
+    }
+    #Membership {
+        height: 270px;
+        width: 1000px;
+        margin-left: 20px;
+    }
+    #Membership h1 {
+        margin-top: 40px;
+        margin-left: 50px;
+        font-size: 25px;
+    }
+    #Membership li {
+        margin-left: 20px;
+        padding-top: 5px;
+        font-size: 20px;
+    }
+    #Activities {
+        height: 250px;
+        width: 240px;
+        margin-top: 10px;
+        padding: 3px;
+        margin-left: 50px;
+        border-radius: 3%;
+    }
+    #Activities li {
+        padding: 5px;
+        font-size: 20px;
+    }
+    #Activities h1 {
+        font-size: 25px;
+        margin-left: 45px;
+    }
+    #Recent_news {
+        height: 340px;
+        width: 320px;
+        margin-left: 50px;
+        margin-bottom: 70px;
+        margin-top: 70px;
+        border-radius: 3%;
+    }
+    #Recent_news h1 {
+        font-size: 25px;
+        margin-top: 40px;
+        padding-top: 10px;
+        margin-left: 40px;
+    }
+    table,
+    tr,
+    td {
+        padding-bottom: 10px;
+        font-size: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 40px;
+        font-weight: bolder;
+    }
+    /*body*/
+    /*navigation menu*/
+    #web {
+        font-style: oblique;
+        font-size: 50px;
+        font-weight: bolder;
+        display: inline-flex;
+        margin-left: 10px;
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+    header ul {
+        margin: 0px;
+        padding: 0px;
+        margin-right: 5px;
+        width: 1410px;
+        height: 80px;
+    }
+    header li {
+        float: left;
+    }
+    header li a {
+        display: block;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 5px;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: 45px;
+    }
+    /*navigation menu*/
+    /*header*/
+    #website img {
+        height: 730px;
+        width: 1400px;
+        font-size: 50px;
+        background-repeat: no-repeat;
+        position: relative;
+        font-weight: bold;
+        padding-top: 10px;
+    }
+    /*header*/
+    /*------------footer------*/
+    #footer {
+        height: 600px;
+        width: 1410px;
+    }
+    #footer h1 {
+        font-size: 35px;
+        margin-top: 100px;
+        margin-left: 10px;
+        position: relative;
+        top: 80px;
+    }
+    .hr2 {
+        height: 10px;
+        width: 250px;
+        margin-left: 560px;
+        margin-top: 90px;
+    }
+    #footer p {
+        padding-top: 30px;
+        padding-bottom: 20px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        font-style: italic;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        margin-left: 150px;
+        padding-left: 300px;
+    }
+    .container {
+        height: 350px;
+        width: 100%;
+        padding-top: 20px;
+    }
+    .common {
+        flex-direction: row;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    .facebook {
+        margin-top: 20px;
+        margin-left: 5%;
+        width: 85px;
+        margin-top: 7%;
+        margin-left: 2%;
+        padding: 4%;
+        height: 60px;
+        border-radius: 5px;
+    }
+    .whatsapp {
+        margin-top: 20px;
+        width: 85px;
+        margin-top: 7%;
+        margin-left: 2%;
+        padding: 4%;
+        height: 60px;
+        border-radius: 5px;
+    }
+    .phone {
+        margin-top: 20px;
+        width: 85px;
+        background: #C1B086;
+        margin-top: 7%;
+        margin-left: 2%;
+        padding: 4%;
+        height: 60px;
+        border-radius: 5px;
+    }
+    .sms {
+        margin-top: 20px;
+        width: 85px;
+        margin-top: 7%;
+        margin-bottom: 5%;
+        margin-left: 2%;
+        padding: 4%;
+        height: 60px;
+        border-radius: 5px;
+    }
+    .description {
+        margin-top: 5px;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:900px) {
+    /*body*/
+    .main-page {
+        width: 100%;
+        height: 5700px;
+    }
+    #logo {
+        width: 100%;
+        height: 250px;
+        margin-bottom: 90px;
+    }
+    .hr1 {
+        height: 5px;
+        width: 100px;
+        margin-left: 130px;
+        margin-top: 30px;
+    }
+    #logo img {
+        height: 150px;
+        margin-left: 30%;
+        margin-top: 20px;
+        margin-bottom: 5px;
+    }
+    #constitution {
+        height: 100px;
+        width: 350px;
+    }
+    button {
+        padding: 5px 10px;
+        outline: none;
+        border: 2px solid white;
+        border-radius: 50px;
+        margin-left: 20px;
+        font-size: 8px;
+        height: 40px;
+        width: 150px;
+    }
+    #meeting-schedule {
+        height: 150px;
+        width: 250px;
+        margin-top: 50px;
+        margin-left: 30px;
+        padding-top: 5px;
+        padding: 5px;
+        background-color: cadetblue;
+        border-radius: 3%;
+        box-shadow: 5px 5px 7px rosybrown;
+    }
+    #meeting-schedule h1 {
+        font-size: 15px;
+        padding-left: 20px;
+    }
+    #meeting-schedule li {
+        padding: 3px;
+        font-size: 15px;
+    }
+    #About-KUHA {
+        height: 100px;
+        width: 250px;
+        margin-top: 0% auto;
+        padding-bottom: 1px;
+        padding-top: 20px;
+        margin-left: 5px;
+    }
+    #About-KUHA p {
+        margin-top: 5px;
+        font-size: 10px;
+    }
+    #About-KUHA h1 {
+        font-size: 15px;
+        margin-left: 10px;
+    }
+    #executives h1 {
+        margin-top: 40px;
+        margin-left: 20px;
+        padding-left: 30px;
+        padding-top: 30px;
+        font-size: 15px;
+    }
+    .box {
+        width: 99%;
+        height: 3300px;
+        margin-top: 10px;
+        margin-left: 3px;
+        border-radius: 10px;
+        box-shadow: -2px -5px white;
+    }
+    .exe {
+        display: block;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .character {
+        font-size: 10px;
+        font-weight: bolder;
+        margin-right: 50px;
+        margin-top: 40px;
+        position: relative;
+        left: -100px;
+        bottom: 2px;
+        width: 200px;
+    }
+    .patron img {
+        height: 400px;
+        width: 250px;
+        border-radius: 3px;
+        margin-left: 50px;
+    }
+    .chairman img {
+        height: 400px;
+        width: 250px;
+        border-radius: 3px;
+        margin-left: 50px;
+    }
+    .vicechair img {
+        height: 410px;
+        width: 250px;
+        border-radius: 3px;
+        margin-left: 50px;
+    }
+    .secgen img {
+        height: 400px;
+        width: 250px;
+        border-radius: 3px;
+        margin-left: 50px;
+    }
+    .treasurer img {
+        height: 400px;
+        width: 250px;
+        border-radius: 3px;
+        margin-left: 50px;
+    }
+    .welfare img {
+        height: 400px;
+        width: 250px;
+        border-radius: 3px;
+        margin-left: 70px;
+    }
+    .publicity img {
+        height: 400px;
+        width: 250px;
+        border-radius: 3px;
+        margin-left: 70px;
+    }
+    #cohorts {
+        height: 100px;
+        width: 230px;
+        margin-top: 50px;
+        margin-left: 20px;
+        padding-top: 5px;
+        margin-bottom: 40px;
+        padding: 10px;
+        border-radius: 3%;
+    }
+    #cohorts li {
+        font-size: 10px;
+    }
+    #cohorts h1 {
+        margin-top: 5px;
+        padding-left: 5px;
+        font-size: 20px;
+    }
+    #gallery {
+        width: 250px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    #gallery h1 {
+        margin-left: 5px;
+        padding-top: 10px;
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    #gallery video {
+        height: 450px;
+        width: 270px;
+        margin-left: 2px;
+        margin-bottom: 3%;
+        padding-left: 5px;
+        border-radius: 3%;
+    }
+    #Membership {
+        height: 150px;
+        width: 300px;
+        margin-left: 10px;
+    }
+    #Membership h1 {
+        margin-top: 40px;
+        margin-left: 50px;
+        font-size: 15px;
+    }
+    #Membership li {
+        margin-left: 5px;
+        padding-top: 5px;
+        font-size: 10px;
+    }
+    #Activities {
+        height: 160px;
+        width: 170px;
+        margin-top: 10px;
+        margin-left: 20px;
+        border-radius: 3%;
+    }
+    #Activities li {
+        padding: 5px;
+        font-size: 10px;
+    }
+    #Activities h1 {
+        font-size: 15px;
+        margin-left: 45px;
+    }
+    #Recent_news {
+        height: 250px;
+        width: 210px;
+        margin-left: 20px;
+        margin-bottom: 70px;
+        margin-top: 70px;
+        border-radius: 3%;
+    }
+    #Recent_news h1 {
+        font-size: 15px;
+        margin-top: 40px;
+        padding-top: 10px;
+        margin-left: 40px;
+    }
+    table,
+    tr,
+    td {
+        padding-bottom: 10px;
+        font-size: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 40px;
+        font-weight: bolder;
+    }
+    /*body*/
+    /*navigation menu*/
+    #web {
+        font-style: oblique;
+        font-size: 20px;
+        font-weight: bolder;
+        display: inline-flex;
+        margin-left: 5px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    header ul {
+        margin: 0px;
+        padding: 0px;
+        margin-right: 5px;
+        width: 100%;
+        height: 30px;
+    }
+    header li {
+        float: left;
+    }
+    header li a {
+        display: block;
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 15px;
+    }
+    /*navigation menu*/
+    /*header*/
+    #website img {
+        height: 270px;
+        width: 99%;
+        background-repeat: no-repeat;
+        position: relative;
+        padding-top: 10px;
+    }
+    /*header*/
+    /*------------footer------*/
+    #footer {
+        height: 400px;
+        width: 100%;
+        margin-left: 0px;
+    }
+    #footer h1 {
+        font-size: 20px;
+        margin-top: 100px;
+        margin-left: 10px;
+        position: relative;
+        top: 80px;
+    }
+    .hr2 {
+        height: 5px;
+        width: 100px;
+        margin-left: 130px;
+        margin-top: 140px;
+    }
+    #footer p {
+        position: relative;
+        margin-left: -280px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: bold;
+        font-size: 10px;
+        font-style: italic;
+    }
+    .container {
+        height: 550px;
+        width: 100%;
+    }
+    .common {
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+    .facebook {
+        margin-top: 20px;
+        margin-left: 5%;
+        width: 70px;
+        margin-top: 7%;
+        margin-left: 120px;
+        padding: 4%;
+        height: 70px;
+        border-radius: 5px;
+    }
+    .whatsapp {
+        margin-top: 20px;
+        width: 70px;
+        margin-top: 7%;
+        margin-left: 120px;
+        padding: 4%;
+        height: 70px;
+        border-radius: 5px;
+    }
+    .phone {
+        margin-top: 20px;
+        width: 70px;
+        background: #C1B086;
+        margin-top: 7%;
+        margin-left: 120px;
+        padding: 4%;
+        height: 70px;
+        border-radius: 5px;
+    }
+    .sms {
+        margin-top: 20px;
+        width: 70px;
+        margin-top: 7%;
+        margin-bottom: 5%;
+        margin-left: 120px;
+        padding: 4%;
+        height: 70px;
+        border-radius: 5px;
+    }
+    .description {
+        margin-top: 5px;
+        font-size: 10px;
+    }
+}
+
+
+/* MEDIA QUERIES*/
