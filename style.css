@@ -111,7 +111,8 @@ button :hover {
 }
 
 .box {
-    background: linear-gradient(90deg, rgb(204, 192, 255), palevioletred);
+    //background: linear-gradient(90deg, rgb(204, 192, 255), palevioletred);
+    background: green;
     width: 99%;
     height: 700px;
     margin: 4px;
