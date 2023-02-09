@@ -111,8 +111,7 @@ button :hover {
 }
 
 .box {
-    //background: linear-gradient(90deg, rgb(204, 192, 255), palevioletred);
-    background: green;
+    background: linear-gradient(90deg, rgb(204, 192, 255), palevioletred);
     width: 99%;
     height: 700px;
     margin: 4px;
@@ -123,9 +122,10 @@ button :hover {
 
 .exe {
     display: flex;
+    flex-wrap :wrap;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
+    box-sizing: border-box;
 }
 
 .character {
@@ -138,49 +138,49 @@ button :hover {
     height: 290px;
     width: 150px;
     border-radius: 3px;
-    margin-left: 70px;
+    
 }
 
 .chairman img {
     height: 290px;
     width: 150px;
     border-radius: 3px;
-    margin-left: 30px;
+    
 }
 
 .vicechair img {
     height: 300px;
     width: 200px;
     border-radius: 3px;
-    margin-left: 20px;
+    
 }
 
 .secgen img {
     height: 300px;
     width: 200px;
     border-radius: 3px;
-    margin-left: 20px;
+    
 }
 
 .treasurer img {
     height: 310px;
     width: 200px;
     border-radius: 3px;
-    margin-left: 20px;
+   
 }
 
 .welfare img {
     height: 370;
     width: 170px;
     border-radius: 3px;
-    margin-left: 20px;
+   
 }
 
 .publicity img {
     height: 300px;
     width: 150px;
     border-radius: 3px;
-    margin-left: 20px;
+    
 }
 
 #cohorts {
