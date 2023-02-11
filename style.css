@@ -344,14 +344,16 @@ header {
 }
 
 header ul {
+    display: flex;
     list-style-type: none;
     overflow: hidden;
     background-color: #333;
-    width: 97%;
-    height: 100px;
+    
+    
 }
 
 header li {
+
     float: left;
 }
 
@@ -372,7 +374,7 @@ header li a {
 header li a:hover {
   
     color: black;
-    background: 0 0 10px tomato, 0 0 15px tomato;
+    background-color: 0 0 10px tomato, 0 0 15px tomato;
     transition: all .6s;
 }
 
