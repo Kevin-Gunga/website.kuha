@@ -48,7 +48,7 @@ button {
     width: 500px;
 }
 button a p {
-list-style: none;
+text-decoration: none;
 }
 
 button :hover {
