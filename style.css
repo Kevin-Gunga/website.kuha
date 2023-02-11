@@ -336,6 +336,9 @@ td {
     margin-bottom: 20px;
     text-decoration: none;
 }
+header {
+display: flex;
+}
 
 header ul {
     list-style-type: none;
@@ -350,7 +353,9 @@ header li {
 }
 
 header li a {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: white;
     text-align: center;
     padding-top: 10px;
@@ -362,7 +367,10 @@ header li a {
 }
 
 header li a:hover {
-    background-color: tomato;
+    //background-color: tomato;
+    color: black;
+    background: 0 0 10px white, 0 0 15px white;
+    transition: all .6s;
 }
 
 
