@@ -332,8 +332,8 @@ td {
     font-weight: bolder;
     display: inline-flex;
     margin-left: 10px;
-    margin-top: 15px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
     text-decoration: none;
 }
 header {
@@ -391,7 +391,7 @@ header li a:hover {
     width: 100%;
     background-repeat: no-repeat;
     color: #fafafa;
-    padding-top: 10px;
+    
 }
 
 
