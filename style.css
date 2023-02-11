@@ -337,7 +337,10 @@ td {
     text-decoration: none;
 }
 header {
-display: flex;
+    display: flex;
+    flex-direction: column;
+    width : 100%;
+    
 }
 
 header ul {
@@ -367,9 +370,9 @@ header li a {
 }
 
 header li a:hover {
-    //background-color: tomato;
+  
     color: black;
-    background: 0 0 10px white, 0 0 15px white;
+    background: 0 0 10px tomato, 0 0 15px tomato;
     transition: all .6s;
 }
 
