@@ -370,6 +370,7 @@ header li a {
 }
 
 header li a:hover {
+    padding: 10px 10px;
     background: white
     color: black;
     box-shadow: 0 0 10px tomato, 0 0 15px tomato, 0 0 20px;
