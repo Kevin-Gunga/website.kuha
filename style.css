@@ -47,6 +47,9 @@ button {
     height: 120px;
     width: 500px;
 }
+button a {
+list-style: none;
+}
 
 button :hover {
     color: white;
