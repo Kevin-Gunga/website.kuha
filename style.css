@@ -847,7 +847,8 @@ header li a:hover {
     .common {
         flex-direction: row;
         display: flex;
-        justify-content: center;
+        flex-wrap:wrap: wrap;
+        justify-content: space around;
         align-content: center;
     }
     .facebook {
