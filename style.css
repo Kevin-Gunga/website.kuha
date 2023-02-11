@@ -340,7 +340,7 @@ header {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 100px;
+    
     
 }
 
@@ -370,7 +370,7 @@ header li a {
 }
 
 header li a:hover {
-    //margin: 10px 10px;
+    
     background: white
     color: black;
     box-shadow: 0 0 10px tomato, 0 0 15px tomato, 0 0 20px;
