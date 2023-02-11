@@ -374,7 +374,7 @@ header li a {
 header li a:hover {
   
     color: black;
-    background-color: 0 0 10px tomato, 0 0 15px tomato;
+    box-shadow: 0 0 10px tomato, 0 0 15px tomato;
     transition: all .6s;
 }
 
