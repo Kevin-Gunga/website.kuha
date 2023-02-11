@@ -363,18 +363,15 @@ header li a {
     
     color: white;
     text-align: center;
-    padding-top: 10px;
-    padding-bottom: 5px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 20px 15px;
     font-size: 55px;
     text-decoration: none;
 }
 
 header li a:hover {
-  
+    background: white
     color: black;
-    box-shadow: 0 0 10px tomato, 0 0 15px tomato;
+    box-shadow: 0 0 10px tomato, 0 0 15px tomato, 0 0 20px;
     transition: all .6s;
 }
 
