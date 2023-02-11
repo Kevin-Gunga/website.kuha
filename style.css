@@ -372,8 +372,8 @@ header li a {
 
 header li a:hover {
     
-    background: white
-    font-color: black;
+    background-color: white;
+    color: black;
     font-weight: bold;
     box-shadow: 0 0 10px tomato, 0 0 15px tomato, 0 0 20px tomato;
     transition: all .6s;
