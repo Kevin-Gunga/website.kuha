@@ -3,6 +3,13 @@
 
 <head>
 </head>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@800&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Orbitron:wght@800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../style.css">
 <script src="https://kit.fontawesome.com/6f82847460.js" crossorigin="anonymous"></script>
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,13 +19,14 @@
 <body>
     <header>
         <nav>
-            <div id="web">KUHA WEBSITE</div>
+            <div id="web">KISII UNIVERSITY HEART ASSOCIATION (KUHA)</div>
         </nav>
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">FAQ</a></li>
+            <li><a href="#website">Home</a></li>
+            <li><a href="#About-KUHA">About</a></li>
+            <li><a href="#footer">Contact</a></li>
+            <li><a href="#Activities">Activities</a>
+            </li>
         </ul>
 
         <div id="website">
@@ -41,151 +49,183 @@
                  </a>
             </button>
         </div>
+        <div class="schedule_about">
+            <div id="meeting-schedule">
+                <h1>MEETING SCHEDULE</h1>
+                <ul>
+                    <li>Time:2.00pm</li>
+                    <li>Room:TC 12</li>
+                    <li>Location:Main Campus</li>
+                    <li>Day:Sunday</li>
+                </ul>
+            </div>
 
-        <div id="meeting-schedule">
-            <h1>MEETING SCHEDULE</h1>
-            <ul>
-                <li>Time:2.00pm</li>
-                <li>Room:TC 12</li>
-                <li>Location:Main Campus</li>
-                <li>Day:Sunday</li>
-            </ul>
+            <div id="About-KUHA">
+                <h1><u>ABOUT KUHA</u></h1>
+                <p>VISION; to be a compassionate affiliation for the betterment of an individual and the society.</p>
+                <p>MISSION; to empower the community and serve one another. </p>
+            </div>
         </div>
 
-        <div id="About-KUHA">
-            <h1>ABOUT KUHA</h1>
-            <p>VISION; to be a compassionate affiliation for the betterment of an individual and the society.</p>
-            <p>MISSION; to empower the community and serve one another. </p>
+
+        <div id="Membership">
+            <h1><u>MEMBERSHIP</u></h1>
+            <ol>
+                <li>All university students are legible to join the association upon payment of registration fee of ksh 100/= and a renewal fee of ksh 70/= per semester.</li>
+                <li>Association's members who have graduated will still be considered members upon payment of ksh 200 as renewal fee per semester.</li>
+            </ol>
+            <div id="donate">
+                <a href="/register.html"> <input id="register" type="button" name="Donate" value="Register"></a>
+                <a href="/donate.html"> <input id="register" type="button" name="Donate" value="Donate"></a>
+            </div>
+
         </div>
         <div id="executives">
-            <h1>EXECUTIVES</h1>
+            <h1><u>EXECUTIVES</u></h1>
             <div class="box exe">
                 <div class="patron">
-                    <div class="character">PATRON</div>
+                    <div class="character">MR.AGGREY <br> PATRON</div>
                     <img src="patron.jpg" alt="">
                 </div>
 
                 <div class="chairman">
-                    <div class="character">OKOTH CHRISPINE-CHAIRMAN</div>
+                    <div class="character">BENJAMIN MKAPA <br>CHAIRMAN</div>
                     <img src="chairman.jpg" alt="">
                 </div>
 
                 <div class="vicechair">
-                    <div class="character">JOYCE NJENGA-VICE CHAIR</div>
+                    <div class="character">MICHAEL OUMA <br> VICE CHAIRMAN</div>
                     <img src="vicechair.jpg" alt="">
                 </div>
                 <div class="secgen">
-                    <div class="character">KELLY SIFUNA-SECRETARY GENERAL</div>
+                    <div class="character">MESHACK OKHIYA <br> SECRETARY GENERAL</div>
                     <img src="secgen.jpg" alt="">
                 </div>
+                <div class="orgasec">
+                    <div class="character">BRITON TIMBE <br> ORGANISING SECRETARY</div>
+                    <img src="orgasec.jpg" alt="">
+                </div>
+                <br>
                 <div class="treasurer">
-                    <div class="character">CHEPTOO FLOWSY-TREASURER</div>
+                    <div class="character">DORICUS MASINDE <br> TREASURER</div>
                     <img src="treasurer.jpg" alt="">
                 </div>
 
                 <div class="welfare">
-                    <div class="character">MERCY PAMELA-WELFARE</div>
+                    <div class="character">VIVIAN KILIBWA <br> WELFARE</div>
                     <img src="welfare.jpg" alt="">
+                </div>
+                <div class="legal">
+                    <div class="character">SYLIVIAH MORAA <br> LEGAL ADVISOR</div>
+                    <img src="legaladvisor.jpg" alt="">
                 </div>
 
                 <div class="publicity">
-                    <div class="character">UHURU SILAS-PUBLICITY SECRETARY</div>
+                    <div class="character">KEVIN GUNGA <br> PUBLICITY SECRETARY</div>
                     <img src="publicity.jpg" alt="">
                 </div>
             </div>
         </div>
-        <div id="cohorts">
-            <h1>Edu service cohorts</h1>
-            <ol>
-                <li>KUHA</li>
-                <li>Scouts</li>
-                <li>ST. John's Ambulance</li>
-                <li>Biodiversity</li>
-            </ol>
+        <div class="hr1">
+            <hr>
         </div>
 
         <div id="gallery">
             <h1>WELCOME TO KUHA PHOTO GALLERY</h1>
             <video src="Kuha_images.mp4" controls></video>
         </div>
-
-        <div id="Membership">
-            <h1>MEMBERSHIP</h1>
-            <ol>
-                <li>All university students are legible to join the association upon payment of registration fee of ksh 100/= and a renewal fee of ksh 70/= per semester.</li>
-                <li>Association's members who have graduated will still be considered members upon payment of ksh 200 as renewal fee per semester.</li>
-            </ol>
+        <div class="hr2">
+            <hr>
         </div>
 
-        <div id="Activities">
-            <h1>ACTIVITIES</h1>
-            <ul>
-                <li>Hike</li>
-                <li>University Day</li>
-                <li>Bonding Camp</li>
-                <li>Visiting orpanages</li>
-                <li>Visiting Hospitals</li>
-            </ul>
+        <div class="cohorts_activities_recent">
+            <div id="cohorts">
+                <h1>Edu service cohorts</h1>
+                <ol>
+                    <li>KUHA</li>
+                    <li>Scouts</li>
+                    <li>ST. John's Ambulance</li>
+                    <li>Biodiversity</li>
+                </ol>
+            </div>
+            <div id="Activities">
+                <h1>ACTIVITIES</h1>
+                <ul>
+                    <li>Hike</li>
+                    <li>University Day</li>
+                    <li>Bonding Camp</li>
+                    <li>Visiting orpanages</li>
+                    <li>Visiting Hospitals</li>
+                </ul>
+            </div>
+
+            <div id="Recent_news">
+                <h1>RECENT NEWS</h1>
+                <table>
+                    <tr>
+                        <th>Activity</th>
+                        <th>Date</th>
+                    </tr>
+                    <tr>
+                        <td>Hike</td>
+                        <td>28/01/2023</td>
+                    </tr>
+                    <tr>
+                        <td>AGM</td>
+                        <td>4/02/2023</td>
+                    </tr>
+                    <tr>
+                        <td>University Day</td>
+                        <td>11/2/2023</td>
+                    </tr>
+                    <tr>
+                        <td>Visiting Orphanage</td>
+                        <td>25/02/2023</td>
+                    </tr>
+                    <tr>
+                        <td>Bonding Camp</td>
+                        <td>17/03/2023</td>
+                    </tr>
+                </table>
+            </div>
         </div>
 
-        <div id="Recent_news">
-            <h1>RECENT NEWS</h1>
-            <table>
-                <tr>
-                    <th>Activity</th>
-                    <th>Date</th>
-                </tr>
-                <tr>
-                    <td>Hike</td>
-                    <td>28/01/2023</td>
-                </tr>
-                <tr>
-                    <td>AGM</td>
-                    <td>4/02/2023</td>
-                </tr>
-                <tr>
-                    <td>University Day</td>
-                    <td>11/2/2023</td>
-                </tr>
-                <tr>
-                    <td>Visiting Orphanage</td>
-                    <td>25/02/2023</td>
-                </tr>
-                <tr>
-                    <td>Bonding Camp</td>
-                    <td>17/03/2023</td>
-                </tr>
-            </table>
-        </div>
     </div>
     <div id="footer">
         <div class="hr2">
             <hr>
         </div>
-        <h1>KUHA socials:</h1>
+        <h1>Contact us:</h1>
         <div class="container common">
             <div class="facebook">
                 <a href="https://www.facebook.com/groups/679998296671842/permalink/830717378266599/?app=fbl" target="_blank">
-                    <i class="fa-brands fa-facebook fa-5x"></i>
+                    <i class="fa-brands fa-facebook fa-4x"></i>
+                </a>
+            </div>
+            <div class="twitter">
+                <a href="https://twitter.com/HeartKisii7934" target="_blank">
+                    <i class="fa-brands fa-square-twitter fa-4x"></i>
                 </a>
             </div>
             <div class="whatsapp">
                 <a href="https://chat.whatsapp.com/HFmVOtgO1svFRzzozLXL5A" target="_blank">
-                    <i class="fa-brands fa-whatsapp fa-5x"></i>
+                    <i class="fa-brands fa-whatsapp fa-4x"></i>
                 </a>
 
             </div>
             <div class="phone">
-                <i class="fa-solid fa-phone fa-3x"></i>
-                <div class="description">0748968164</div>
+                <a href="/call.html" target="_blank"><i class="fa-solid fa-phone fa-4x"></i></a>
+
             </div>
-            <div class="sms">
-                <i class="fa-regular fa-comment fa-3x"></i>
-                <div class="description">0748968164</div>
-            </div>
+
+
         </div>
         <p>Developed By Kevin Gunga.& Copy;2023 All rights Reserved</p>
     </div>
 </body>
+
+</html>
+
+</html>
 
 </html>

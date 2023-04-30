@@ -1,0 +1,19 @@
+{
+  "name": "website.kuha",
+  "version": "1.0.0",
+  "description": "This is a humanitarian website.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kevin-Gunga/website.kuha.git"
+  },
+  "author": "KEVIN GUNGA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kevin-Gunga/website.kuha/issues"
+  },
+  "homepage": "https://github.com/Kevin-Gunga/website.kuha#readme"
+}
